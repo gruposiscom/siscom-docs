@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://ruizamdev.github.io",
+  url: "https://gruposiscom.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/siscom-docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "ruizamdev", // Usually your GitHub org/user name.
+  organizationName: "gruposiscom", // Usually your GitHub org/user name.
   projectName: "siscom-docs", // Usually your repo name.
   trailingSlash: false,
 
