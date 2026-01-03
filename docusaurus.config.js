@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "SISCOM",
   tagline: "Soluciones Integrales en Sistemas Computacionales",
-  // favicon: "src/favicon.ico",
+  favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
