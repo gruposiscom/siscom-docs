@@ -84,10 +84,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "SISCOM",
+        title: "Documentación",
         // logo: {
-        //   alt: "",
-        //   src: "",
+        //   alt: "Main Logo",
+        //   src: "img/logo_main.png",
         // },
         items: [
           // {
