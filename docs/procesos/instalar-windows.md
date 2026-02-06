@@ -23,13 +23,13 @@ Si confirmaste que el equipo requiere respaldo, respalda las siguientes carpetas
 Utiliza un formato estandarizado para la carpeta de respaldo:
 
 ```text
-BACKUP_<FOLIO>_<NOMBRE-DEL-CLIENTE>
+<FOLIO>_<NOMBRE-DEL-CLIENTE>
 ```
 
 Ejemplo:
 
 ```text
-BACKUP_10192_Juan_Perez
+10192_Juan_Perez
 ```
 
 Confirma si existen más de un usuario en el equipo para respaldarlos también.
