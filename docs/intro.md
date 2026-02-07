@@ -12,6 +12,6 @@ Esta documentación está organizada en las siguientes secciones:
 
 - **Procesos**: Documentación de los procesos del sistema
 - **Tutoriales**: Guías paso a paso
-- **Documentación**: Documentación general del sistema
+- **Desarrollo de Software**: Documentación acerca de desarrollo de aplicaciones
 
 Selecciona una sección del menú lateral para comenzar.
