@@ -234,7 +234,7 @@ Ruta: Local Policies → Security Options
 
 # 🧬 Tip Admin Real
 
-Muchos .msc existen en: C:`\Windows`{=tex}`\System32`{=tex}
+Muchos .msc existen en: C:`\Windows\System32`
 
 Si sabes el nombre → probablemente funciona en Win + R.
 
