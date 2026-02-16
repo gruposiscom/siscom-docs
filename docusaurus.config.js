@@ -142,7 +142,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Armando Ruiz @ruizamdev`,
+        copyright: `Copyright © ${new Date().getFullYear()} Grupo Siscom Made By Armando Ruiz @ruizamdev`,
       },
       prism: {
         theme: prismThemes.github,
