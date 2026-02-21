@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 1
 ---
 
@@ -53,8 +53,8 @@ sidebar_position: 1
 
 ### 🗂️ Manejo de ventanas
 
-| A                       | Atajo                         | Acción |
-| ----------------------- | ----------------------------- | ------ |
+| Atajo                   | Acción                        |
+| ----------------------- | ----------------------------- |
 | **Win + Tab**           | Vista de tareas               |
 | **Alt + Tab**           | Cambiar ventanas              |
 | **Win + D**             | Mostrar escritorio            |
@@ -67,55 +67,73 @@ sidebar_position: 1
 
 ## Windows Defender
 
-    windowsdefender:
-    ms-settings:windowsdefender
+| Comando                       | Descripción breve                    |
+| ----------------------------- | ------------------------------------ |
+| `windowsdefender:`            | Abre Seguridad de Windows            |
+| `ms-settings:windowsdefender` | Abre ajustes de Seguridad de Windows |
 
 ### Secciones Defender
 
-    ms-settings:windowsdefender-firewall
-    ms-settings:windowsdefender-antivirus
+| Comando                                 | Descripción breve                       |
+| --------------------------------------- | --------------------------------------- |
+| `ms-settings:windowsdefender-firewall`  | Abre Firewall y protección de red       |
+| `ms-settings:windowsdefender-antivirus` | Abre Protección contra virus y amenazas |
 
 ---
 
 ## Firewall
 
-    firewall.cpl
-    wf.msc
+| Comando        | Descripción breve                 |
+| -------------- | --------------------------------- |
+| `firewall.cpl` | Abre el panel clásico de Firewall |
+| `wf.msc`       | Abre el Firewall avanzado         |
 
 ---
 
 ## UAC
 
-    UserAccountControlSettings.exe
+| Comando                          | Descripción breve         |
+| -------------------------------- | ------------------------- |
+| `UserAccountControlSettings.exe` | Abre configuración de UAC |
 
 ### Alternativas gestión cuentas
 
-    netplwiz
-    control userpasswords2
+| Comando                  | Descripción breve                     |
+| ------------------------ | ------------------------------------- |
+| `netplwiz`               | Gestión avanzada de cuentas           |
+| `control userpasswords2` | Gestión avanzada de cuentas (clásico) |
 
 ### UAC avanzado (Policies)
 
-    secpol.msc
+| Comando      | Descripción breve                  |
+| ------------ | ---------------------------------- |
+| `secpol.msc` | Abre directivas de seguridad local |
 
 Ruta: Local Policies → Security Options
 
 ---
 
-# 🔄 Windows Update
+# 🔁 Windows Update
 
 ## Panel principal
 
-    ms-settings:windowsupdate
+| Comando                     | Descripción breve                    |
+| --------------------------- | ------------------------------------ |
+| `ms-settings:windowsupdate` | Abre Windows Update en Configuración |
 
 ## Legacy
 
-    control update
+| Comando          | Descripción breve                       |
+| ---------------- | --------------------------------------- |
+| `control update` | Abre el panel clásico de Windows Update |
 
 ## Secciones
 
-    ms-settings:windowsupdate-action
-    ms-settings:windowsupdate-history
-    ms-settings:windowsupdate-options
+| Comando                             | Descripción breve                 |
+| ----------------------------------- | --------------------------------- |
+| `ms-settings:windowsupdate-action`  | Abre acciones de Windows Update   |
+| `ms-settings:windowsupdate-history` | Abre historial de actualizaciones |
+| `ms-settings:windowsupdate-options` | Abre opciones avanzadas           |
 
 ---
 
@@ -123,85 +141,105 @@ Ruta: Local Policies → Security Options
 
 ## 🧠 Núcleo Sistema
 
-    msinfo32
-    sysdm.cpl
-    winver
-    dxdiag
+| Comando     | Descripción breve       |
+| ----------- | ----------------------- |
+| `msinfo32`  | Información del sistema |
+| `sysdm.cpl` | Propiedades del sistema |
+| `winver`    | Versión de Windows      |
+| `dxdiag`    | Diagnóstico de DirectX  |
 
 ---
 
 ## 👤 Usuarios
 
-    lusrmgr.msc
-    netplwiz
-    control userpasswords2
+| Comando                  | Descripción breve                     |
+| ------------------------ | ------------------------------------- |
+| `lusrmgr.msc`            | Usuarios y grupos locales             |
+| `netplwiz`               | Gestión avanzada de cuentas           |
+| `control userpasswords2` | Gestión avanzada de cuentas (clásico) |
 
 ---
 
 ## ⚙️ Hardware / Drivers
 
-    devmgmt.msc
-    hdwwiz.cpl
-    joy.cpl
-    mmsys.cpl
+| Comando       | Descripción breve                   |
+| ------------- | ----------------------------------- |
+| `devmgmt.msc` | Administrador de dispositivos       |
+| `hdwwiz.cpl`  | Asistente para agregar hardware     |
+| `joy.cpl`     | Configuración de controles/joystick |
+| `mmsys.cpl`   | Sonido y dispositivos de audio      |
 
 ---
 
 ## 💾 Discos / Storage
 
-    diskmgmt.msc
-    cleanmgr
-    dfrgui
+| Comando        | Descripción breve                  |
+| -------------- | ---------------------------------- |
+| `diskmgmt.msc` | Administración de discos           |
+| `cleanmgr`     | Limpieza de disco                  |
+| `dfrgui`       | Optimizar y desfragmentar unidades |
 
 ---
 
 ## 🌐 Red
 
-    ncpa.cpl
-    inetcpl.cpl
+| Comando       | Descripción breve    |
+| ------------- | -------------------- |
+| `ncpa.cpl`    | Conexiones de red    |
+| `inetcpl.cpl` | Opciones de Internet |
 
 ---
 
 ## 🧬 Servicios / Procesos / Monitoreo
 
-    services.msc
-    taskmgr
-    resmon
-    perfmon
-    eventvwr.msc
+| Comando        | Descripción breve       |
+| -------------- | ----------------------- |
+| `services.msc` | Servicios de Windows    |
+| `taskmgr`      | Administrador de tareas |
+| `resmon`       | Monitor de recursos     |
+| `perfmon`      | Monitor de rendimiento  |
+| `eventvwr.msc` | Visor de eventos        |
 
 ---
 
 ## 🏢 Consolas Enterprise
 
-    compmgmt.msc
-    gpedit.msc
-    rsop.msc
+| Comando        | Descripción breve              |
+| -------------- | ------------------------------ |
+| `compmgmt.msc` | Administración de equipos      |
+| `gpedit.msc`   | Directivas de grupo local      |
+| `rsop.msc`     | Resultant Set of Policy (RSoP) |
 
 ---
 
 ## 🧪 Recovery / Diagnóstico
 
-    msconfig
-    mdsched
-    rstrui
+| Comando    | Descripción breve                  |
+| ---------- | ---------------------------------- |
+| `msconfig` | Configuración del sistema/arranque |
+| `mdsched`  | Diagnóstico de memoria             |
+| `rstrui`   | Restaurar sistema                  |
 
 ---
 
 ## 📦 Software / Features
 
-    appwiz.cpl
-    optionalfeatures
-    control folders
+| Comando            | Descripción breve           |
+| ------------------ | --------------------------- |
+| `appwiz.cpl`       | Programas y características |
+| `optionalfeatures` | Características de Windows  |
+| `control folders`  | Opciones de carpetas        |
 
 ---
 
 # 🕶️ Nivel Avanzado (Poco Conocidos pero Útiles)
 
-    shrpubw
-    fsmgmt.msc
-    credwiz
-    azman.msc
+| Comando      | Descripción breve                      |
+| ------------ | -------------------------------------- |
+| `shrpubw`    | Asistente de carpetas compartidas      |
+| `fsmgmt.msc` | Administración de recursos compartidos |
+| `credwiz`    | Asistente de credenciales              |
+| `azman.msc`  | Authorization Manager                  |
 
 ---
 
@@ -209,26 +247,32 @@ Ruta: Local Policies → Security Options
 
 ## PC Lenta
 
-    Ctrl + Shift + Esc
-    resmon
-    perfmon
-    eventvwr.msc
+| Comando              | Descripción breve            |
+| -------------------- | ---------------------------- |
+| `Ctrl + Shift + Esc` | Abre Administrador de tareas |
+| `resmon`             | Monitor de recursos          |
+| `perfmon`            | Monitor de rendimiento       |
+| `eventvwr.msc`       | Visor de eventos             |
 
 ---
 
 ## Sospecha Malware
 
-    windowsdefender:
-    msconfig
-    taskmgr
+| Comando            | Descripción breve         |
+| ------------------ | ------------------------- |
+| `windowsdefender:` | Abre Seguridad de Windows |
+| `msconfig`         | Configuración de arranque |
+| `taskmgr`          | Procesos y rendimiento    |
 
 ---
 
 ## Problemas de Red
 
-    ncpa.cpl
-    devmgmt.msc
-    eventvwr.msc
+| Comando        | Descripción breve             |
+| -------------- | ----------------------------- |
+| `ncpa.cpl`     | Conexiones de red             |
+| `devmgmt.msc`  | Administrador de dispositivos |
+| `eventvwr.msc` | Visor de eventos              |
 
 ---
 
@@ -246,9 +290,11 @@ Tipo Ejemplo
 
 ---
 
-.msc Consolas MMC
-.cpl Panel control clásico
-ms-settings: Config moderna
-.exe Ejecutables directos
+| Tipo           | Ejemplo               |
+| -------------- | --------------------- |
+| `.msc`         | Consolas MMC          |
+| `.cpl`         | Panel control clásico |
+| `ms-settings:` | Config moderna        |
+| `.exe`         | Ejecutables directos  |
 
 ---
