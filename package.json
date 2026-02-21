@@ -8,7 +8,11 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "GIT_USER=gruposiscom docusaurus deploy",
+<<<<<<< HEAD
     "windeploy": "powershell -Command \"$env:GIT_USER='gruposiscom'; docusaurus deploy\"",
+=======
+    "deploy:win": "powershell -Command \"$env:GIT_USER='gruposiscom'; npx docusaurus deploy\"",
+>>>>>>> aeabedbb61e212b5e34e39445e4e89168fc39db0
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
