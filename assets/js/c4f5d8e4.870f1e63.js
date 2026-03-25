@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksiscom_docs=globalThis.webpackChunksiscom_docs||[]).push([[634],{9830(s,o,c){c.r(o),c.d(o,{default:()=>r});var t=c(2264),i=c(5384),n=c(2615);function r(){const s=(0,i.Ay)("/docs/intro");return(0,n.jsx)(t.rd,{to:s})}}}]);
